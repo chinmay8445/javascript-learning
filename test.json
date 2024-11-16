@@ -1,0 +1,18 @@
+{
+    "fullName": "Jenny",
+    "email": "jenny@gmail.com",
+    "qualifiaction": "BE CSE",
+    "isMarried": true,
+    "age": 55,
+    "hobbies": [
+        "Travelling",
+        "Programming",
+        "Reading"
+    ],
+    "marks": {
+        "physics": 90,
+        "maths": 67,
+        "programming": 89,
+        "socialScience": 78
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem("firstName","Chinmay Jawale");
+        window.sessionStorage.setItem("City","Pune");
+        window.sessionStorage.setItem("District","Sangli");
+        window.sessionStorage.setItem("Pin","411057");
+        const country = window.sessionStorage.getItem("Country");
+        console.log(country);
+        window.sessionStorage.removeItem("Pin");
+
+        
+    </script>
+</body>
+</html>
